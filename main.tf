@@ -8,7 +8,6 @@ module "subscription" {
   project           = "${google_pubsub_topic.pubsub_topic.project}"
   topicName         = "${google_pubsub_topic.pubsub_topic.name}"
   pullSubscriptions = "${var.definition["pull"]}"
-  pushSubscriptions = "${var.definition["push"]}"
 }
 
 data "google_iam_policy" "role" {
