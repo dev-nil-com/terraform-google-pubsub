@@ -1,6 +1,5 @@
 locals {
   subscriptionPullLength = "${length(var.pullSubscriptions)}"
-  subscriptionPushLength = "${length(var.pushSubscriptions)}"
 }
 
 resource "google_pubsub_subscription" "pubsub_subscription_pull" {
