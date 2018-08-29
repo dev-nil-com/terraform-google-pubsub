@@ -28,12 +28,6 @@ variable "definition" {
         The list of PULL subscriptions should be defined by those attributes:
           - name
           - deadline (optional) (default: 10)
-
-      - push [list]
-        The list of PUSH subscriptions should be defined by those attributes:
-          - name
-          - url
-          - deadline (optional) (default: 10)
   EOF
 }
 
