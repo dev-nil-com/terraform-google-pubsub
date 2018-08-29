@@ -17,14 +17,4 @@ variable "pullSubscriptions" {
 EOF
 }
 
-variable "pushSubscriptions" {
-  type = "list"
-
-  description = <<EOF
-    List of PUSH subscriptions.
-    Attributes:
-     - name
-     - url
-     - deadline (optional) (default: 10)
-EOF
 }
