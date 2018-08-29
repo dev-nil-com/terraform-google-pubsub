@@ -11,4 +11,4 @@ resource "google_pubsub_subscription" "pubsub_subscription_pull" {
   ack_deadline_seconds = "${lookup(var.pullSubscriptions[count.index], "deadline", 10)}"
 }
 
-}
+
