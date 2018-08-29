@@ -17,4 +17,4 @@ variable "pullSubscriptions" {
 EOF
 }
 
-}
+
